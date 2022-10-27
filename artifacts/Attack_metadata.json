@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_etherStoreAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "target",
+				"outputs": [
+					{
+						"internalType": "contract Reentrance",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Reentry_Attack.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/Reentrance.sol": {
+			"keccak256": "0x8be83a0a052547d6e3eadcdda39004e262fccf4d556c4d099f75fdcb75c6d77d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://982b05d16fb74e8b29d29cf0d1b8603cd4e57a7d78c97a39d77f2e6743fdc2f2",
+				"dweb:/ipfs/QmW64UHmrnfJxYuCDqoeKSYzb77vLyZoGhyK1VDjaYfwVc"
+			]
+		},
+		"Reentry_Attack.sol": {
+			"keccak256": "0x008d4a7639309c42905a5108892543b1450a4225f7bc11cb887042096c7e2527",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e64b8363410576a527be10bb241a686d64c9a596ce2e0b9bb16c9b543166f65d",
+				"dweb:/ipfs/QmZDm9P1gXLYGB6mAMLA68xvZgXStrHpPXZzJ61TJKp6gN"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+				"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+			]
+		}
+	},
+	"version": 1
+}

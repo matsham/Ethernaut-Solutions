@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gkone",
+				"outputs": [
+					{
+						"internalType": "contract GatekeeperOne",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "letMeIn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_caddr",
+						"type": "address"
+					}
+				],
+				"name": "setGateKeeper",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GateKeeper_Attack.sol": "GateRaid"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/GateKeeper.sol": {
+			"keccak256": "0x474a6f34628dd21b47720912ec4708d7f2afec82a7372d7e9d2717d20deb242d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6edc91a3774613c70c90f66302c2b42aaec24862fcf14b5c4dd53c1b5e4b5e1e",
+				"dweb:/ipfs/QmXsvqDvm5wvM6729a9ZCMZCApxntZBFXVnPjDBfbhP3Yd"
+			]
+		},
+		"GateKeeper_Attack.sol": {
+			"keccak256": "0x4c2f53a5918d2fb9b027ce4f0ebb3e8951db0d6d59b0e94690b4c4d20adbb645",
+			"urls": [
+				"bzz-raw://eab9efd2a5ad1d10557234bf557505af2b79bb0b6b8f32e9364b80b87b64e30a",
+				"dweb:/ipfs/QmTJ71rdfzZ4EvBvBiMbZ7NNx74TZQPuuymdY4htk5FPY7"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+				"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+			]
+		}
+	},
+	"version": 1
+}

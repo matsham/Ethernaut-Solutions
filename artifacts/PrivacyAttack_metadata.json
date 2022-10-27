@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_slot",
+						"type": "bytes32"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "victimcontract",
+				"outputs": [
+					{
+						"internalType": "contract Privacy",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Privacy_Attack.sol": "PrivacyAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Privacy.sol": {
+			"keccak256": "0x8d7e766c046f68fadaeff686b167ef0b93345083b2bc229a15b1865844fe9993",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7305ec18b4e5d6d72c2bd1fca62b097a56d0416da978170d335f5455a2480730",
+				"dweb:/ipfs/QmaD9PKtJLCuW1Qk9HtEVrVxKijSP8w8WjuC8ZLydMumBu"
+			]
+		},
+		"Privacy_Attack.sol": {
+			"keccak256": "0x5a820b9da50248e55b765a86172812146e80a7a0b9cb547d1ec9c0f90eb6b9f6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2d533ad33710faba8686ec5b06069036418716a9f5ab0bad05cb097bdcc91da",
+				"dweb:/ipfs/Qmes6btw3M3qH6Hah36XjseegJJWtuPABbnw5Mc6oV7NE1"
+			]
+		}
+	},
+	"version": 1
+}
